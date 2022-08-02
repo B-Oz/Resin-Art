@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     background-color: rgb(1, 98, 137);
     justify-content: center;
@@ -24,7 +24,7 @@ header{
 
 .headername{
     padding: 10px;
-    border: 9px solid white;
+    border: 5px solid white;
     border-radius: 50px
 
     
@@ -105,7 +105,19 @@ article p{
 .submit{
     border: 3px solid rgb(9, 122, 150);
 }
+ 
+.submit:hover{
+    cursor: pointer;
+}
 
 form{
     margin-bottom: 1rem;
+}
+footer{
+    background-color: rgb(1, 98, 137);
+    color: white;
+    text-align: center;
+    padding: 0.7rem;
+  
+
 }
